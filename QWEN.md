@@ -1523,3 +1523,611 @@
 | **9. Expected Deliverables** | Temporal Knowledge Graph Extractor, Logical Contradiction Engine, Contract Auditing Web Interface |
 | **10. Possible Future Extensions** | Automated redlining and suggestion of corrected temporal clauses, integration with project management software to auto-generate compliance timelines. |
 | **11. References / Inspiration** | Temporal knowledge graph reasoning literature, LegalBERT research, automated contract analysis frameworks. |
+
+# Curated Undergraduate Computer Science Thesis Ideas (Batch 11 of 20)
+
+## Idea 101
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Detection and Quantification of UI Dark Patterns in E-Commerce Platforms Using Vision-Language Models and DOM Graph Analysis |
+| **2. Description** | E-commerce sites increasingly deploy "dark patterns"—deceptive user interfaces designed to manipulate consumer behavior into unintended purchases, subscriptions, or data sharing. Manual auditing of these practices is unscalable and highly subjective. This thesis develops an automated auditing framework that fuses Document Object Model (DOM) tree graph representations with visual screenshot analysis using Vision-Language Models (VLMs). The system parses the structural hierarchy of web elements while visually evaluating urgency cues, hidden costs, and forced continuity tactics. By training on a novel dataset of annotated dark patterns, the framework calculates a quantitative "manipulation score" for individual web pages. The primary contribution is a scalable, dual-modality detection engine that empowers consumer protection regulators and browser-extension developers to systematically enforce digital marketplace transparency and penalize predatory UX design. |
+| **3. Target Domain** | Human-Computer Interaction, Web Security, Consumer Protection |
+| **4. Statement of the Problem (SOP)** | 1. How can DOM structural graphs and visual screenshot features be fused to accurately detect multi-modal dark patterns (e.g., disguised ads, hidden subscription traps)? <br> 2. What graph representation learning techniques best capture the deceptive hierarchical nesting and visual obscuring of malicious UI components? <br> 3. How accurately can the framework generalize to novel, evolving dark pattern taxonomies across diverse global e-commerce platforms without extensive retraining? |
+| **5. Technologies** | Python, Playwright / Selenium, PyTorch, CLIP / LLaVA (VLMs), Graph Neural Networks, React |
+| **6. Research Category** | Human-Computer Interaction, Artificial Intelligence, Cybersecurity |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Web Scraping & Analysis Pipeline, Dark Pattern Classification Model, Browser Extension Prototype |
+| **10. Possible Future Extensions** | Real-time DOM manipulation blocking, automated generation of regulatory compliance reports, expansion to mobile application UI analysis. |
+| **11. References / Inspiration** | Mathur et al. (Dark Patterns research), Vision-Language Model documentation, FTC guidelines on digital manipulation. |
+
+## Idea 102
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Augmented Reality Vein Visualization and Phlebotomy Guidance Using Near-Infrared Imaging and Real-Time Spatial Anchoring on Smart Glasses |
+| **2. Description** | Venipuncture failures cause patient discomfort and medical complications, particularly in pediatric, geriatric, and dehydrated populations. Existing near-infrared (NIR) vein finders require projecting light onto the skin, which severely distorts when the patient moves or the limb surface is curved. This thesis proposes a head-mounted AR system using custom NIR camera modules integrated with lightweight smart glasses. A computer vision pipeline extracts the subdermal venous network and projects a spatially anchored, stereoscopic 3D overlay directly onto the patient's limb, compensating for head movement and anatomical curvature in real-time. The primary contribution is a high-fidelity, hands-free clinical tool that drastically improves first-stick success rates for nurses while reducing hardware costs compared to bulky, cart-based ultrasound systems. |
+| **3. Target Domain** | Healthcare, Augmented Reality, Biomedical Engineering |
+| **4. Statement of the Problem (SOP)** | 1. How can near-infrared venous signatures be accurately extracted and enhanced in real-time under variable ambient clinical lighting and varying skin melanin concentrations? <br> 2. What SLAM and spatial anchoring algorithms ensure the stereoscopic AR overlay remains perfectly registered to the curved, dynamic surface of a moving human limb? <br> 3. How does AR-guided venipuncture impact first-stick success rates and overall procedure time compared to traditional tactile methods and 2D projection vein finders? |
+| **5. Technologies** | C++, C#, Unity3D, ARCore / ARKit, NIR Camera Modules, OpenCV, Stereoscopic Rendering |
+| **6. Research Category** | Augmented Reality, Computer Vision, Healthcare Informatics |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | AR Smart Glasses Prototype, NIR Image Processing Pipeline, Clinical Simulation Evaluation |
+| **10. Possible Future Extensions** | Integration with ultrasound for deep arterial mapping, automated documentation of venipuncture sites into electronic health records (EHR). |
+| **11. References / Inspiration** | Near-infrared tissue penetration research, Unity XR spatial anchoring documentation, phlebotomy clinical guidelines. |
+
+## Idea 103
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Early Detection of Bovine Lameness Using Edge-AI 3D Pose Estimation and Temporal Gait Analysis on Standard Farm CCTV |
+| **2. Description** | Lameness in dairy and beef cattle is a major animal welfare issue and a source of massive economic loss, yet early detection relies on subjective, labor-intensive visual scoring by farm staff. This research develops a non-invasive, automated lameness detection system using existing farm CCTV infrastructure. By applying lightweight, multi-animal 3D pose estimation models, the system tracks the skeletal kinematics of individual cows as they walk through a designated corridor. Temporal graph neural networks then analyze gait asymmetries, stride length variations, and spinal curvature over time to detect sub-clinical lameness days before it becomes visibly apparent to humans. The expected contribution is a scalable precision livestock farming tool that enables early veterinary intervention, reducing antibiotic usage and improving overall herd welfare. |
+| **3. Target Domain** | Agriculture, Computer Vision, Animal Welfare |
+| **4. Statement of the Problem (SOP)** | 1. How can multi-animal 3D pose estimation models accurately track overlapping, visually identical livestock in highly cluttered and occluded farm environments? <br> 2. What temporal graph architectures best capture the subtle, sub-clinical kinematic deviations indicative of early-stage bovine lameness? <br> 3. How does the system maintain tracking consistency and identity resolution (re-identification) across varying lighting conditions, shadows, and camera angles over a multi-week deployment? |
+| **5. Technologies** | Python, PyTorch, YOLO-Pose / DeepLabCut, OpenCV, NVIDIA Jetson, TimescaleDB |
+| **6. Research Category** | Computer Vision, Embedded Systems, Precision Agriculture |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Edge AI Perception Node, Temporal Gait Analysis Model, Livestock Health Dashboard |
+| **10. Possible Future Extensions** | Integration with automated sorting gates to isolate lame animals, predictive modeling of herd-wide lameness outbreaks based on environmental factors. |
+| **11. References / Inspiration** | Precision livestock farming literature, multi-animal pose estimation research, veterinary lameness scoring systems (e.g., locomotion scoring). |
+
+## Idea 104
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Preventing Liquidation Cascades in Algorithmic Stablecoins Using Multi-Agent Reinforcement Learning and System Dynamics Simulation |
+| **2. Description** | Algorithmic stablecoins maintain their peg through automated smart contract mechanisms rather than fiat collateral. However, during extreme market volatility, these mechanisms often trigger catastrophic "liquidation cascades" (death spirals) due to delayed market reactions and predatory arbitrage bots. This thesis develops a dynamic stabilization framework using Multi-Agent Reinforcement Learning (MARL) to control minting/burning fees, collateralization ratios, and interest rates in real-time. By training agents in a high-fidelity, multi-actor system dynamics simulator that includes simulated panic-selling retail users and aggressive MEV bots, the model learns proactive, non-linear monetary policies to absorb market shocks. The primary contribution is a mathematically robust, AI-governed monetary policy engine that drastically improves the capital efficiency and survival rate of decentralized stablecoins. |
+| **3. Target Domain** | FinTech, Blockchain, Artificial Intelligence |
+| **4. Statement of the Problem (SOP)** | 1. How can MARL agents learn optimal, proactive monetary interventions to stabilize a peg without exhausting protocol treasury reserves during simulated market panics? <br> 2. What system dynamics models accurately replicate the complex feedback loops, network latency, and predatory behavior inherent in decentralized exchange liquidations? <br> 3. How do AI-governed stabilization policies compare to static, hardcoded algorithmic curves (e.g., PID controllers) in preventing death spirals under black-swan market events? |
+| **5. Technologies** | Python, Ray RLlib, PyTorch, Foundry / Hardhat (Solidity Simulation), System Dynamics Modeling |
+| **6. Research Category** | Artificial Intelligence, Distributed Systems, Financial Engineering |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | MARL Monetary Policy Agent, Stablecoin Simulation Environment, Stress-Test Benchmarking Report |
+| **10. Possible Future Extensions** | Integration with real-world oracle price feeds, application to decentralized lending protocol interest rate models, formal verification of the RL policy bounds. |
+| **11. References / Inspiration** | Algorithmic stablecoin post-mortems (e.g., UST/Luna), Multi-Agent Reinforcement Learning literature, decentralized finance (DeFi) system dynamics. |
+
+## Idea 105
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Physics-Driven 3D Sign Language Avatar Generation with Prosody-Aligned Non-Manual Markers Using Diffusion Motion Models |
+| **2. Description** | Deaf individuals frequently encounter digital content lacking sign language interpretation. Existing 3D signing avatars appear robotic and lack "non-manual markers" (facial expressions, eyebrow raises, head tilts) which constitute up to 30% of sign language grammar. This thesis proposes a novel motion-generation pipeline utilizing Diffusion Models conditioned on textual input and synthesized audio prosody. The system translates text into phoneme-level glosses and drives a high-fidelity 3D rigged avatar. By fusing skeletal keypoint diffusion for handshapes with physics-based constraints to prevent anatomical clipping, and synchronizing facial blendshapes to linguistic prosody, the system produces natural, grammatically correct sign language. The contribution is a highly expressive, automated accessibility engine for dynamic web content, emergency broadcasts, and educational platforms. |
+| **3. Target Domain** | Accessibility, Computer Graphics, Natural Language Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can Diffusion Models be constrained by biomechanical limits and collision-detection physics to generate anatomically valid, continuous sign language trajectories without skeletal clipping? <br> 2. What multimodal fusion techniques effectively align synthesized audio prosody and textual glosses to drive linguistically accurate non-manual facial markers? <br> 3. How do Deaf and Hard-of-Hearing native signers rate the grammatical accuracy, naturalness, and comprehensibility of the generated avatar compared to traditional keyframe-interpolated systems? |
+| **5. Technologies** | Python, PyTorch, Blender Python API, Hugging Face, Motion Diffusion Models (MDM), WebXR |
+| **6. Research Category** | Human-Computer Interaction, Computer Vision, Accessibility |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | 3D Avatar Generation Pipeline, Physics-Constrained Diffusion Model, WebXR Accessibility Plugin |
+| **10. Possible Future Extensions** | Real-time translation of live speech to sign language avatars, expansion to regional sign language dialects and spatial grammar. |
+| **11. References / Inspiration** | Motion Diffusion Model (MDM) papers, linguistics of non-manual markers in ASL, 3D avatar rigging documentation. |
+
+## Idea 106
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Dynamic Memory Right-Sizing and Leak Detection in Serverless Functions Using eBPF and Unsupervised Temporal Profiling |
+| **2. Description** | Serverless platforms charge based on allocated memory, leading developers to massively over-provision RAM to prevent Out-Of-Memory (OOM) crashes, resulting in severe financial waste. Conversely, under-provisioning causes silent performance degradation and invocation failures. This thesis develops an eBPF-based profiling daemon that hooks into the Linux kernel memory allocation sub-system of containerized serverless runtimes. By tracking allocation patterns and applying unsupervised temporal clustering, the system accurately predicts peak memory footprints, identifies slow memory leaks across warm container invocations, and dynamically right-sizes the cgroup limits in real-time. The primary contribution is a zero-code, kernel-level financial and performance optimizer for enterprise serverless fleets that operates without modifying application source code. |
+| **3. Target Domain** | Cloud Computing, Systems Programming, Green IT |
+| **4. Statement of the Problem (SOP)** | 1. How can eBPF programs efficiently trace high-frequency kernel memory allocation and page-fault events in ephemeral microVMs without degrading invocation latency? <br> 2. What unsupervised time-series clustering algorithms accurately distinguish between legitimate dynamic memory scaling and silent, long-term memory leaks in warm containers? <br> 3. What is the exact financial cost-saving versus performance-risk trade-off when dynamically shrinking cgroup memory limits based on eBPF predictive profiling? |
+| **5. Technologies** | C, Go, eBPF (libbpf / bcc), Kubernetes / Knative, Prometheus, Firecracker MicroVM |
+| **6. Research Category** | Systems Programming, Cloud Computing, Software Engineering |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | eBPF Profiling Daemon, Memory Prediction Algorithm, Serverless Cost-Optimization Dashboard |
+| **10. Possible Future Extensions** | CPU frequency scaling integration, extension to long-running Kubernetes pods, automated generation of Terraform memory-limit updates. |
+| **11. References / Inspiration** | eBPF memory tracing documentation, AWS Firecracker architecture, research on cloud financial management (FinOps). |
+
+## Idea 107
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Ultra-Low Latency Dynamic Obstacle Avoidance for Micro-Drones in GPS-Denied Urban Canyons Using Event-Based Cameras and Spiking Neural Networks |
+| **2. Description** | Delivery and inspection micro-drones operating in dense urban environments require ultra-low latency obstacle avoidance to survive high-speed maneuvers and motion blur, which cripple standard frame-based RGB cameras. This research implements an avoidance pipeline utilizing neuromorphic event-based cameras, which asynchronously record pixel-level brightness changes at microsecond resolution. A Spiking Neural Network (SNN) processes this sparse, high-speed spike train data directly, bypassing heavy convolution operations. Deployed on ultra-low-power neuromorphic edge chips, the system achieves sub-millisecond reactive control. The primary contribution is a biologically inspired, highly energy-efficient perception stack that extends drone flight times while guaranteeing collision-free navigation in visually degraded, high-speed scenarios. |
+| **3. Target Domain** | Robotics, Embedded Systems, Neuromorphic Computing |
+| **4. Statement of the Problem (SOP)** | 1. How do Spiking Neural Networks process asynchronous, sparse event-camera spike trains to estimate Time-To-Collision (TTC) faster and with less energy than traditional frame-based CNNs? <br> 2. What control theory frameworks best translate sub-millisecond SNN collision-threat spikes into smooth, stable drone motor thrust vectors? <br> 3. How does the neuromorphic perception stack maintain obstacle detection reliability in challenging lighting conditions (e.g., direct sun flare, sudden shadows, high dynamic range environments)? |
+| **5. Technologies** | C++, Python, ROS 2, SpikingJelly / Norse, Prophesee Event Camera SDK, PX4 Autopilot |
+| **6. Research Category** | Robotics, Embedded Systems, Artificial Intelligence |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | SNN Obstacle Avoidance Model, Event-Camera Perception Stack, Micro-Drone Flight Test Report |
+| **10. Possible Future Extensions** | Sensor fusion with LiDAR for absolute depth estimation, application to high-speed autonomous racing drones. |
+| **11. References / Inspiration** | Neuromorphic engineering literature, event-based vision research (e.g., Scaramuzza Lab), PX4 collision prevention documentation. |
+
+## Idea 108
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Semantic Grading and Formative Feedback for Student UML and ER Diagrams Using Graph Isomorphism Networks and LLM Explanations |
+| **2. Description** | In software engineering education, manually grading hundreds of complex UML (Unified Modeling Language) and Entity-Relationship (ER) diagrams is a massive bottleneck, leading to delayed, inconsistent, or purely summative feedback. This thesis proposes an AI grading engine that treats student-submitted diagram images or exported XMLs as directed, multi-relational graphs. A Graph Isomorphism Network (GIN) evaluates structural equivalence against an instructor's canonical graph, identifying missing multiplicities, incorrect relationships, and normalization errors. An integrated Large Language Model then translates the GIN's graph-diff into constructive, formative, plain-language feedback tailored to the student's specific conceptual misunderstandings. The expected contribution is a scalable, pedagogically sound automated teaching assistant that drastically reduces educator workload while improving student mastery of system design. |
+| **3. Target Domain** | Educational Technology, Software Engineering, Artificial Intelligence |
+| **4. Statement of the Problem (SOP)** | 1. How can Graph Isomorphism Networks (GINs) be trained to recognize structural and semantic equivalence in UML/ER diagrams despite vast differences in spatial layout and node positioning? <br> 2. What graph-diff algorithms most accurately map a student's flawed conceptual model to the canonical truth graph to isolate specific pedagogical misunderstandings? <br> 3. How can LLMs be strictly grounded in the GIN graph-diff output to generate accurate, hallucination-free, and pedagogically constructive feedback? |
+| **5. Technologies** | Python, PyTorch Geometric, Llama-3 API, Draw.io / Lucidchart XML Parsers, React |
+| **6. Research Category** | Artificial Intelligence, Software Engineering, Education |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Diagram Parsing Engine, GIN Equivalence Model, Web-based Student Feedback Portal |
+| **10. Possible Future Extensions** | Expansion to grade software architecture component diagrams, integration with LMS platforms (Canvas/Blackboard), automated generation of remedial coding exercises based on design flaws. |
+| **11. References / Inspiration** | Graph Isomorphism Network (GIN) literature, automated assessment in CS education, LLM grounding techniques. |
+
+## Idea 109
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Detection of Zero-Day Container Escalation and Kernel Exploit Chains in Multi-Tenant Kubernetes Using Audit Temporal Transformers |
+| **2. Description** | In multi-tenant Kubernetes environments, a compromised pod often serves as a beachhead for attackers attempting container escape and host-node kernel exploitation. Traditional signature-based tools fail against novel, multi-stage exploit chains (e.g., DirtyPipe, eBPF privilege escalation). This thesis develops an advanced behavioral anomaly detector that streams Linux Audit logs, cgroup events, and eBPF tracepoints into a Temporal Transformer model. By learning the strict, deterministic sequences of legitimate microservice behavior, the model flags anomalous system-call sequences indicative of memory corruption, namespace tampering, or unauthorized capability requests in real-time. The contribution is a proactive, deep-learning cloud-native security shield capable of halting lateral movement before host-node root access is achieved. |
+| **3. Target Domain** | Cybersecurity, Cloud Computing, DevOps |
+| **4. Statement of the Problem (SOP)** | 1. How can Temporal Transformers process ultra-high-throughput, noisy Linux audit logs to detect multi-stage kernel exploit chains with sub-second latency? <br> 2. What feature-engineering techniques best isolate malicious namespace and capability manipulation from the legitimate, dynamic behavior of auto-scaling cloud-native workloads? <br> 3. How does the model mitigate high false-positive rates caused by legitimate, but rare, administrative maintenance tasks and automated CI/CD pipeline executions? |
+| **5. Technologies** | Go, Python, PyTorch, Falco / Tetragon (eBPF), Kubernetes, Elasticsearch / OpenSearch |
+| **6. Research Category** | Cybersecurity, Cloud Computing, Artificial Intelligence |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Kernel Audit Ingestion Pipeline, Temporal Transformer Classifier, K8s Security Operator |
+| **10. Possible Future Extensions** | Automated pod quarantine and network policy injection upon exploit detection, integration with MITRE ATT&CK mapping for automated incident response reporting. |
+| **11. References / Inspiration** | MITRE ATT&CK for Containers, Temporal Transformers for time-series anomaly detection, eBPF security observability tools. |
+
+## Idea 110
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Detection and Volumetric Estimation of Illegal Riverine Sand Mining Using SAR Interferometry and Vision Transformers |
+| **2. Description** | Illegal sand mining for concrete production severely degrades river ecosystems, collapses bridges, and exacerbates coastal erosion. Optical satellite monitoring is frequently thwarted by cloud cover, and miners often operate covertly at night. This thesis leverages Synthetic Aperture Radar (SAR) Interferometry (InSAR) from the Sentinel-1 constellation to detect micro-topographical changes in riverbeds and banks regardless of weather or sunlight. By training Vision Transformers on InSAR coherence maps and digital elevation model (DEM) differencing, the system automatically flags illicit dredging zones and estimates the volumetric mass of stolen sediment. The primary contribution is an impenetrable, all-weather environmental enforcement tool that provides governments with legally defensible, quantitative evidence to prosecute illegal extraction syndicates. |
+| **3. Target Domain** | Environmental Science, Remote Sensing, Computer Vision |
+| **4. Statement of the Problem (SOP)** | 1. How can InSAR coherence loss and phase unwrapping be optimized to differentiate between illegal mechanical sand dredging and natural, seasonal riverbed sediment transport? <br> 2. What Vision Transformer architectures most effectively map 2D InSAR topographical anomalies to accurate 3D volumetric estimations of extracted sand mass? <br> 3. How does the system mitigate false positives caused by changing soil moisture, vegetation growth, and agricultural activity adjacent to the riverine extraction sites? |
+| **5. Technologies** | Python, PyTorch, ESA SNAP Toolbox, Sentinel-1 SAR Data, Vision Transformers, QGIS / PostGIS |
+| **6. Research Category** | Remote Sensing, Computer Vision, Environmental Informatics |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | InSAR Processing Pipeline, Volumetric Estimation Model, GIS Enforcement Dashboard |
+| **10. Possible Future Extensions** | Integration with automated drone dispatch for visual confirmation, temporal forecasting of riverbank collapse risks due to structural undermining. |
+| **11. References / Inspiration** | Sentinel-1 InSAR documentation, UNEP reports on global sand extraction, Vision Transformers in remote sensing. |
+
+# Curated Undergraduate Computer Science Thesis Ideas (Batch 12 of 20)
+
+## Idea 111
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Multimodal Prediction of Post-Operative Sepsis and Readmission Using Continuous Wearable Telemetry and Electronic Health Records |
+| **2. Description** | Post-operative complications like sepsis often develop subtly after hospital discharge, leading to high readmission rates. Current predictive models rely solely on sporadic clinical vitals recorded in Electronic Health Records (EHR). This thesis proposes a multimodal predictive framework that fuses continuous, at-home physiological telemetry (heart rate variability, resting heart rate, skin temperature) from consumer wearables with historical EHR data. By employing temporal attention mechanisms, the system identifies early, sub-clinical physiological deviations indicative of systemic infection or deterioration. The expected contribution is a highly accurate, remote patient monitoring algorithm that enables proactive clinical interventions, reducing preventable hospital readmissions and improving post-surgical recovery outcomes. |
+| **3. Target Domain** | Healthcare, Artificial Intelligence, Signal Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can continuous, noisy wearable telemetry be temporally aligned and fused with sparse, discrete EHR clinical events? <br> 2. What temporal attention architectures best capture the delayed physiological markers of post-operative sepsis? <br> 3. How does the system maintain predictive accuracy across diverse patient demographics and varying wearable hardware brands? |
+| **5. Technologies** | Python, PyTorch, Apple HealthKit / Fitbit API, MIMIC-IV, FastAPI |
+| **6. Research Category** | Artificial Intelligence, Healthcare Informatics, Signal Processing |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Multimodal Fusion Model, Remote Monitoring Dashboard, Clinical Validation Report |
+| **10. Possible Future Extensions** | Integration with automated telehealth triage routing, expansion to predict post-operative deep vein thrombosis (DVT). |
+| **11. References / Inspiration** | MIMIC-IV dataset, wearable HRV sepsis detection literature, remote patient monitoring clinical trials. |
+
+## Idea 112
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Non-Invasive IoT Firmware Fingerprinting and Counterfeit Detection Using Power Side-Channel Analysis and Machine Learning |
+| **2. Description** | The global IoT hardware supply chain is highly vulnerable to counterfeit microcontrollers and cloned firmware, which introduce severe security backdoors. Verifying hardware authenticity without destructive decapsulation is difficult. This research utilizes power side-channel analysis to fingerprint IoT devices. By measuring the high-frequency power consumption traces during the device's boot sequence and cryptographic operations, a machine learning classifier identifies the unique silicon-level manufacturing variations and firmware execution signatures. The primary contribution is a non-invasive, scalable hardware verification tool that enables procurement teams and security auditors to detect cloned chips and unauthorized firmware modifications before deployment in critical infrastructure. |
+| **3. Target Domain** | Cybersecurity, Hardware Security, Embedded Systems |
+| **4. Statement of the Problem (SOP)** | 1. What specific power trace features during boot and cryptographic execution uniquely identify individual silicon manufacturing variations? <br> 2. How can machine learning models generalize to detect counterfeit devices from unseen manufacturing batches? <br> 3. What is the impact of environmental temperature fluctuations and power supply noise on the accuracy of side-channel fingerprinting? |
+| **5. Technologies** | C, Python, Scikit-learn, ChipWhisperer / Oscilloscope APIs, Digital Signal Processing |
+| **6. Research Category** | Cybersecurity, Hardware Security, Embedded Systems |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Power Trace Acquisition Rig, Fingerprinting ML Model, Supply Chain Audit Tool |
+| **10. Possible Future Extensions** | Integration with automated hardware-in-the-loop testing rigs, extension to detect hardware trojans. |
+| **11. References / Inspiration** | Side-channel analysis literature, hardware supply chain security reports, embedded systems security. |
+
+## Idea 113
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Carbon-Aware Data Migration and Replication in Geo-Distributed Object Storage Using Real-Time Grid Intensity Forecasting |
+| **2. Description** | Cloud object storage systems frequently replicate and migrate massive datasets across global data centers for redundancy and latency optimization, consuming enormous amounts of network and compute energy. This thesis develops a carbon-aware storage orchestrator that dynamically routes data replication and background migration tasks to regions currently powered by low-carbon energy grids. By integrating real-time and forecasted grid carbon intensity APIs with storage telemetry, the system delays non-urgent background tasks (e.g., erasure coding rebuilds, cross-region backups) until green energy is available. The primary contribution is a sustainable storage middleware that significantly reduces the Scope 2 and 3 emissions of enterprise data lakes without violating data durability or availability Service Level Objectives (SLOs). |
+| **3. Target Domain** | Cloud Computing, Green IT, Distributed Systems |
+| **4. Statement of the Problem (SOP)** | 1. How can carbon-intensity forecasting models accurately predict regional grid emissions to schedule delayed storage maintenance tasks? <br> 2. What multi-objective optimization algorithms best balance the trade-off between carbon reduction, network egress costs, and data durability guarantees? <br> 3. How does carbon-aware replication impact the recovery time objective (RTO) during catastrophic regional data center failures? |
+| **5. Technologies** | Go, MinIO / Ceph, Electricity Maps API, Kubernetes, Prometheus, gRPC |
+| **6. Research Category** | Cloud Computing, Green IT, Distributed Systems |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Storage Orchestrator Plugin, Carbon Forecasting Engine, Emissions vs. Durability Report |
+| **10. Possible Future Extensions** | Integration with financial spot-pricing for dual cost/carbon optimization, thermal-aware storage routing. |
+| **11. References / Inspiration** | Green Software Foundation storage principles, Ceph architecture documentation, carbon-aware computing research. |
+
+## Idea 114
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Autonomous Precision Weed Ablation in High-Density Crop Canopies Using Hyperspectral Vision and Galvanometer Laser Targeting |
+| **2. Description** | Mechanical weeding damages crop roots, and chemical herbicides drive the evolution of resistant superweeds. Laser ablation offers a zero-chemical alternative, but targeting small weeds in dense, overlapping crop canopies requires extreme speed and precision. This research develops an autonomous rover equipped with a hyperspectral camera and a high-speed galvanometer laser system. A lightweight edge AI model processes hyperspectral bands to differentiate crop from weed based on unique chlorophyll and water absorption signatures. A predictive kinematic controller then aims the laser to ablate the weed's meristem before the rover moves past. The contribution is a high-throughput, non-chemical weeding robotic framework that enables sustainable, high-yield organic farming. |
+| **3. Target Domain** | Agriculture, Robotics, Computer Vision |
+| **4. Statement of the Problem (SOP)** | 1. What specific hyperspectral band ratios most reliably differentiate early-stage weeds from morphologically similar crops under variable natural sunlight? <br> 2. How can predictive kinematic control algorithms compensate for the rover's continuous motion to maintain lethal laser dwell time on the target weed meristem? <br> 3. What is the energy-efficiency and throughput trade-off of galvanometer laser ablation compared to mechanical hoeing and micro-spraying? |
+| **5. Technologies** | C++, ROS 2, PyTorch, Hyperspectral Sensors, Galvanometer Control APIs, NVIDIA Jetson |
+| **6. Research Category** | Robotics, Computer Vision, Agricultural Engineering |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Laser Weeding Prototype, Hyperspectral Classification Model, Field Trial Benchmark |
+| **10. Possible Future Extensions** | Swarm coordination for large-acreage coverage, integration with soil nutrient mapping for simultaneous precision fertilization. |
+| **11. References / Inspiration** | Laser weeding agricultural research, hyperspectral vegetation indices, ROS 2 control documentation. |
+
+## Idea 115
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Haptic-Enabled Virtual Reality Chemistry Laboratories for Safe Hazardous Material Training Using Physics-Based Fluid and Thermal Simulation |
+| **2. Description** | Training students in hazardous chemical synthesis and titration carries severe physical risks and high material costs. Traditional 2D virtual labs lack the tactile intuition required to master delicate physical techniques. This thesis develops an immersive VR chemistry laboratory featuring high-fidelity, real-time physics simulations of fluid dynamics, exothermic reactions, and gas dispersion, coupled with advanced haptic feedback gloves. The system renders thermodynamic and kinetic properties of virtual chemicals, providing localized thermal and force feedback to the user's hands when handling volatile substances or glassware. The primary contribution is a highly realistic, multi-sensory educational simulator that accelerates psychomotor skill acquisition and safety protocol mastery before students enter physical wet labs. |
+| **3. Target Domain** | Educational Technology, Virtual Reality, Human-Computer Interaction |
+| **4. Statement of the Problem (SOP)** | 1. How can real-time fluid dynamics and exothermic thermal simulations be optimized to run at high framerates in VR without causing motion sickness or physics clipping? <br> 2. What haptic rendering algorithms best translate virtual thermodynamic states (e.g., heat generation, viscosity changes) into intuitive tactile feedback on wearable gloves? <br> 3. How does multi-sensory VR training impact psychomotor skill retention and safety incident rates in subsequent physical wet-lab evaluations? |
+| **5. Technologies** | C#, Unity3D, Obi Fluid / PhysX, Haptic Glove SDKs, WebGL |
+| **6. Research Category** | Human-Computer Interaction, Virtual Reality, Educational Technology |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | VR Chemistry Simulator, Haptic Rendering Engine, Pedagogical Efficacy Study |
+| **10. Possible Future Extensions** | Integration with AI-driven virtual lab assistants for real-time procedural correction, expansion to biological BSL-3 training environments. |
+| **11. References / Inspiration** | Haptic rendering in VR literature, chemistry education research, Unity physics engine documentation. |
+
+## Idea 116
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Regulatory Compliance Auditing of Cross-Border Stablecoin Transactions Using Zero-Knowledge Proofs and On-Chain Identity Oracles |
+| **2. Description** | Cross-border stablecoin remittances offer immense financial inclusion benefits but struggle to comply with fragmented global Anti-Money Laundering (AML) and Know Your Customer (KYC) regulations without exposing user privacy. This thesis designs a privacy-preserving compliance protocol utilizing Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge (zk-SNARKs). Users generate cryptographic proofs that they are not on international sanctions lists and that their transaction volume complies with jurisdictional limits, without revealing their identity or balance to the public blockchain. The system relies on decentralized identity oracles to verify off-chain KYC attestations. The contribution is a scalable, privacy-mathematically-guaranteed compliance layer that enables institutional adoption of decentralized stablecoins for global remittances. |
+| **3. Target Domain** | Blockchain, FinTech, Cybersecurity |
+| **4. Statement of the Problem (SOP)** | 1. How can complex, multi-jurisdictional AML/KYC regulatory rules be efficiently compiled into arithmetic circuits for zk-SNARK proof generation? <br> 2. What decentralized oracle architectures ensure the secure, tamper-proof ingestion of off-chain KYC attestations into the on-chain zero-knowledge verifier? <br> 3. How does the computational overhead of generating and verifying compliance proofs impact the throughput and latency of high-frequency stablecoin payment networks? |
+| **5. Technologies** | Solidity, Circom, SnarkJS, Polygon / Ethereum, Chainlink Functions, React |
+| **6. Research Category** | Distributed Systems, Cybersecurity, FinTech |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | ZK Compliance Smart Contracts, Oracle Integration Layer, Remittance Web Portal |
+| **10. Possible Future Extensions** | Extension to decentralized credit scoring, integration with central bank digital currency (CBDC) interoperability protocols. |
+| **11. References / Inspiration** | zk-SNARK documentation, FATF guidelines on virtual assets, decentralized identity (DID) standards. |
+
+## Idea 117
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Real-Time Dysarthric Speech Recognition and Intelligibility Enhancement Using Self-Supervised Audio Models and Articulatory Feature Fusion |
+| **2. Description** | Individuals with dysarthria (motor speech disorders caused by stroke, ALS, or Parkinson's) experience severe degradation in speech intelligibility, rendering commercial automatic speech recognition (ASR) systems highly inaccurate. This research develops an ASR pipeline specifically optimized for dysarthric speech. By utilizing self-supervised audio foundation models (e.g., Wav2Vec 2.0) fine-tuned on pathological speech datasets, and fusing acoustic features with simulated articulatory kinematics, the system learns to decode heavily slurred or fragmented speech. Furthermore, it employs a generative voice conversion module to synthesize a clear, intelligible audio output in the user's original voice for real-time communication aids. The contribution is a highly inclusive, low-latency assistive communication technology that restores digital voice access for neurologically impaired individuals. |
+| **3. Target Domain** | Accessibility, Natural Language Processing, Audio Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can self-supervised audio models be adapted to extract robust phonetic representations from highly variable, low-resource dysarthric speech datasets? <br> 2. What articulatory feature fusion techniques improve the decoding accuracy of slurred phonemes that lack distinct acoustic boundaries? <br> 3. How does the latency and naturalness of the real-time voice conversion module impact the conversational fluency and cognitive load of the user? |
+| **5. Technologies** | Python, PyTorch, Hugging Face (Wav2Vec2, SpeechT5), Torchaudio, UASpeech Dataset, FastAPI |
+| **6. Research Category** | Accessibility, Natural Language Processing, Audio Processing |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Dysarthric ASR Model, Real-Time Voice Conversion App, Intelligibility Benchmark Report |
+| **10. Possible Future Extensions** | Integration with subvocal sEMG for multimodal speech decoding, personalized model adaptation using few-shot learning on the user's mobile device. |
+| **11. References / Inspiration** | UASpeech dataset documentation, self-supervised speech representation learning, assistive technology for motor speech disorders. |
+
+## Idea 118
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Hyper-Local Urban Flood Inundation Mapping Using Crowdsourced Cellular Signal Degradation and Edge-Based Hydrological Modeling |
+| **2. Description** | Urban flash floods cause severe property damage and loss of life, but municipal water-level sensors are sparse and expensive to maintain. This thesis proposes a novel, crowdsourced flood mapping system that utilizes the ubiquity of smartphones. Rain and standing water severely attenuate cellular and Wi-Fi radio signals. By developing a mobile application that continuously logs localized RF signal degradation alongside GPS and barometric pressure data, the system infers precipitation intensity and surface water accumulation. An edge-based hydrological model fuses this crowdsourced attenuation data with digital elevation models (DEMs) to generate real-time, hyper-local flood inundation maps. The contribution is a highly scalable, zero-infrastructure early warning system that empowers citizens and emergency responders during extreme weather events. |
+| **3. Target Domain** | Smart Cities, Internet of Things (IoT), Environmental Informatics |
+| **4. Statement of the Problem (SOP)** | 1. How can machine learning models differentiate between RF signal attenuation caused by heavy rainfall/flooding and attenuation caused by physical obstructions or network congestion? <br> 2. What data aggregation and filtering techniques ensure the privacy and reliability of crowdsourced cellular telemetry for real-time environmental modeling? <br> 3. How accurately can crowdsourced signal degradation data be fused with DEMs to predict street-level water depth compared to municipal ultrasonic sensors? |
+| **5. Technologies** | Android / iOS, Python, Telephony Manager APIs, GIS (QGIS), Random Forest, FastAPI |
+| **6. Research Category** | Internet of Things (IoT), Smart Cities, Environmental Informatics |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Mobile Crowdsourcing App, RF Attenuation Hydrological Model, Emergency Response Dashboard |
+| **10. Possible Future Extensions** | Integration with municipal traffic camera computer vision for visual flood validation, predictive routing for emergency vehicles. |
+| **11. References / Inspiration** | RF signal attenuation meteorology research, crowdsourced environmental sensing literature, urban flood modeling. |
+
+## Idea 119
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Predicting Protein-Protein Interaction Affinity Changes Induced by Missense Mutations Using 3D Equivariant Graph Neural Networks and Protein Language Models |
+| **2. Description** | Missense mutations (single amino acid substitutions) frequently disrupt or enhance Protein-Protein Interactions (PPIs), driving genetic diseases and cancer. Predicting the thermodynamic change in binding affinity (ΔΔG) computationally is vital for drug target validation but relies on slow molecular dynamics. This thesis combines 3D Equivariant Graph Neural Networks (EGNNs) with embeddings from Protein Language Models (e.g., ESM-2). The model represents the protein complex as a 3D spatial graph, utilizing the LLM embeddings as rich evolutionary and structural node features to predict ΔΔG. The primary contribution is a highly accurate, ultra-fast AI tool that enables geneticists and pharmacologists to prioritize pathogenic mutations and design targeted protein-protein interaction inhibitors. |
+| **3. Target Domain** | Bioinformatics, Artificial Intelligence, Computational Biology |
+| **4. Statement of the Problem (SOP)** | 1. How do embeddings from Protein Language Models (LLMs) enhance the spatial and evolutionary context provided to 3D Equivariant Graph Neural Networks for PPI affinity prediction? <br> 2. What graph construction strategies best capture the complex interfacial water molecules and hydrogen bond networks critical for binding affinity? <br> 3. How does the model generalize to predict affinity changes for novel, unseen protein complexes and multi-body interactions? |
+| **5. Technologies** | Python, PyTorch Geometric, ESM-2 (Hugging Face), PyMOL, PDB / SKEMPI Datasets |
+| **6. Research Category** | Bioinformatics, Artificial Intelligence, Computational Biology |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | 3D EGNN Affinity Predictor, Mutation Screening Pipeline, Biological Validation Report |
+| **10. Possible Future Extensions** | Integration with generative AI for de novo protein binder design, application to predicting antibody-antigen neutralization escape mutations. |
+| **11. References / Inspiration** | SKEMPI database, ESM-2 protein language model papers, 3D equivariant neural network literature. |
+
+## Idea 120
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Detection and Impact Analysis of "Tsunami" Transitive Vulnerabilities in Open-Source Package Registries Using Graph Reachability Algorithms |
+| **2. Description** | Modern software relies on deep, nested dependency trees. A single vulnerability in a foundational, low-level library (a "Tsunami" dependency) can compromise millions of downstream applications. Traditional static analysis tools only scan direct dependencies or rely on delayed, manually maintained vulnerability databases. This thesis develops an automated graph-reachability engine that continuously maps the entire dependency graph of major registries (e.g., npm, PyPI, Maven). By combining real-time static code analysis to determine if vulnerable functions are actually invoked (reachability) with graph centrality metrics, the system calculates a "Tsunami Impact Score" for every package. The contribution is a proactive supply-chain security intelligence platform that alerts maintainers and enterprises to critical, systemic vulnerabilities before they are actively exploited in the wild. |
+| **3. Target Domain** | Software Engineering, Cybersecurity, Data Science |
+| **4. Statement of the Problem (SOP)** | 1. How can static code analysis be scaled to accurately determine function-level reachability across millions of deeply nested, multi-language open-source packages? <br> 2. What graph centrality and propagation algorithms best quantify the systemic "Tsunami" impact of a vulnerability within a massive, highly interconnected package registry? <br> 3. How does the system differentiate between dead-code vulnerabilities (unreachable) and critical execution-path vulnerabilities to prioritize patching efforts? |
+| **5. Technologies** | Python, Neo4j, GraphQL, npm / PyPI / Maven APIs, Abstract Syntax Tree (AST) Parsers, React |
+| **6. Research Category** | Software Engineering, Cybersecurity, Data Science |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Dependency Graph Database, Reachability Analysis Engine, Supply Chain Risk Dashboard |
+| **10. Possible Future Extensions** | Automated generation of virtual patches (e.g., AST-level function wrapping), integration with enterprise CI/CD pipelines for automated dependency pinning. |
+| **11. References / Inspiration** | Software supply chain security literature (e.g., Log4Shell post-mortems), graph reachability analysis, open-source ecosystem research. |
+
+# Curated Undergraduate Computer Science Thesis Ideas (Batch 13 of 20)
+
+## Idea 121
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Autonomous Soil Microbiome Health Mapping Using Drone-Based Hyperspectral Imaging and Edge AI Surrogate Models |
+| **2. Description** | Soil microbiome health is critical for crop yield and carbon sequestration, but traditional assessment requires slow, expensive, and destructive laboratory sampling. This research proposes an aerial mapping system utilizing drone-based hyperspectral imaging to predict sub-surface soil biological metrics. By training surrogate machine learning models on paired hyperspectral reflectance signatures and ground-truth microbial DNA sequencing data, the system estimates fungal-to-bacterial ratios and microbial diversity indices across large agricultural zones. Edge AI processing on the drone enables real-time generation of microbiome health maps. The primary contribution is a non-invasive, high-resolution precision agriculture tool that allows farmers to optimize bio-fertilizer application and monitor soil regeneration without physical sampling. |
+| **3. Target Domain** | Agriculture, Remote Sensing, Artificial Intelligence |
+| **4. Statement of the Problem (SOP)** | 1. How can hyperspectral reflectance signatures be mathematically correlated with sub-surface soil microbiome diversity and specific microbial taxa? <br> 2. What surrogate machine learning models accurately predict complex soil biological metrics from hyperspectral data while compensating for surface moisture and crop canopy occlusion? <br> 3. How does the integration of topographical and historical land-use data improve the spatial resolution and predictive accuracy of microbiome health maps? |
+| **5. Technologies** | Python, PyTorch, DroneKit, Hyperspectral Camera APIs, GIS (QGIS), XGBoost / Random Forest |
+| **6. Research Category** | Remote Sensing, Artificial Intelligence, Precision Agriculture |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Drone Mapping Pipeline, Surrogate Microbiome Model, Farm Management Dashboard |
+| **10. Possible Future Extensions** | Integration with automated variable-rate bio-fertilizer spreaders, longitudinal soil carbon sequestration tracking for carbon credit verification. |
+| **11. References / Inspiration** | Hyperspectral soil analysis literature, precision agriculture drone operations, soil metagenomics research. |
+
+## Idea 122
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Dynamic, AI-Orchestrated Deception Technology for Cloud-Native Kubernetes Environments Using eBPF and Large Language Models |
+| **2. Description** | Traditional static honeypots are easily identified and bypassed by advanced persistent threats (APTs) in modern cloud-native environments. This thesis develops a dynamic deception technology framework that utilizes the Extended Berkeley Packet Filter (eBPF) to seamlessly mirror and isolate live production microservice traffic into high-interaction, ephemeral honeypots. Once an attacker interacts with the deceptive environment, an integrated Large Language Model (LLM) generates realistic, context-aware synthetic API responses and database records to engage the adversary and profile their tactics. The primary contribution is a proactive, zero-trust deception layer that captures high-fidelity threat intelligence and attacker lateral movement without risking actual production data or infrastructure. |
+| **3. Target Domain** | Cybersecurity, Cloud Computing, Artificial Intelligence |
+| **4. Statement of the Problem (SOP)** | 1. How can eBPF be utilized to dynamically clone and isolate production microservices into high-interaction honeypots without introducing latency or disrupting live traffic? <br> 2. How can LLMs generate realistic, context-aware synthetic data and API responses to effectively engage and profile advanced persistent threats? <br> 3. What telemetry extraction techniques best capture attacker lateral movement and command-and-control (C2) behaviors within the deceptive environment for automated threat intelligence generation? |
+| **5. Technologies** | Go, C, eBPF (Cilium / libbpf), Kubernetes, Llama-3 API, Python, Docker |
+| **6. Research Category** | Cybersecurity, Cloud Computing, Artificial Intelligence |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | eBPF Traffic Mirroring Agent, LLM-Driven Honeypot API, Threat Intelligence Dashboard |
+| **10. Possible Future Extensions** | Automated generation of network firewall rules based on captured attacker TTPs, integration with Security Orchestration, Automation, and Response (SOAR) platforms. |
+| **11. References / Inspiration** | eBPF traffic mirroring documentation, deception technology research, LLMs for synthetic data generation. |
+
+## Idea 123
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Continuous, Non-Invasive Cortisol and Stress Monitoring Using Wearable Electrochemical Sweat Sensors and Multimodal Edge AI |
+| **2. Description** | Chronic psychological stress severely impacts cardiovascular and metabolic health, yet current monitoring relies on subjective surveys or invasive blood draws. This research develops a wearable patch utilizing electrochemical aptamer-based sensors to continuously measure cortisol concentrations in low-volume eccrine sweat. A multimodal edge AI model fuses this biochemical data with physiological signals (Heart Rate Variability, Electrodermal Activity) captured by a smartwatch to quantify acute and chronic stress states. The expected contribution is a highly accurate, non-invasive digital biomarker for psychological stress that enables real-time biofeedback interventions, preventative mental health care, and objective burnout tracking for high-stress professions. |
+| **3. Target Domain** | Healthcare, Wearable Technology, Signal Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can electrochemical aptamer-based sensors be calibrated to continuously and accurately measure cortisol concentrations in low-volume, highly variable eccrine sweat? <br> 2. What multimodal fusion techniques best correlate biochemical sweat markers with physiological signals (HRV, EDA) to differentiate between physical exertion and psychological stress? <br> 3. How does the system mitigate sensor bio-fouling, signal drift, and motion artifacts during prolonged, continuous wear in real-world conditions? |
+| **5. Technologies** | Python, C++, TensorFlow Lite, Custom PCB Design, BLE, Scipy, Apple HealthKit |
+| **6. Research Category** | Biomedical Engineering, Internet of Things (IoT), Artificial Intelligence |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Wearable Sensor Prototype, Multimodal Stress Algorithm, Mobile Companion App |
+| **10. Possible Future Extensions** | Integration with smart environments to automatically adjust lighting and temperature based on user stress, predictive burnout modeling for corporate wellness programs. |
+| **11. References / Inspiration** | Wearable sweat sensor literature, psychoneuroendocrinology, multimodal physiological computing research. |
+
+## Idea 124
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Generation of Interactive 3D Historical Reconstructions from Archival Text and 2D Imagery Using Generative AI and Neural Radiance Fields |
+| **2. Description** | Creating immersive 3D historical environments for education and digital heritage preservation is highly labor-intensive, requiring expert 3D modeling and texturing. This thesis proposes an automated pipeline that utilizes Large Language Models (LLMs) to extract precise spatial, architectural, and material descriptions from unstructured historical texts, generating a foundational 3D scene graph. This structure is then textured and refined using Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting, conditioned on sparse 2D archival photographs and paintings. The primary contribution is a scalable, AI-driven content creation tool that allows educators and historians to rapidly generate photorealistic, interactive WebXR historical simulations from existing archival materials. |
+| **3. Target Domain** | Educational Technology, Computer Graphics, Natural Language Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can LLMs accurately extract and structure precise spatial, architectural, and material descriptions from unstructured historical texts to generate valid 3D scene graphs? <br> 2. How can Neural Radiance Fields (NeRFs) and Gaussian Splatting be effectively conditioned on sparse, stylized, or degraded 2D archival photographs to reconstruct photorealistic 3D environments? <br> 3. What rendering optimizations allow these complex, AI-generated 3D historical scenes to run interactively at high framerates on standard web browsers for educational use? |
+| **5. Technologies** | Python, Three.js, Llama-3 API, Nerfstudio, Stable Diffusion, WebGL |
+| **6. Research Category** | Computer Graphics, Natural Language Processing, Educational Technology |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Text-to-3D Pipeline, WebXR Historical Viewer, Educational Efficacy Study |
+| **10. Possible Future Extensions** | Integration with VR headsets for immersive historical field trips, AI-driven NPC historical figures that answer student questions in-character using RAG. |
+| **11. References / Inspiration** | NeRF and 3D Gaussian Splatting papers, LLMs for 3D scene generation, digital heritage preservation methodologies. |
+
+## Idea 125
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Privacy-Preserving Fraud Detection in Real-Time Cross-Border Payment Networks Using Federated Graph Neural Networks |
+| **2. Description** | Cross-border payment networks are highly vulnerable to complex, multi-hop money laundering and fraud rings. However, financial institutions cannot pool transaction data to train centralized detection models due to strict data sovereignty laws and privacy regulations. This thesis implements a Federated Graph Neural Network (FGNN) framework where banks collaboratively train a fraud detection model on a global, cross-institutional transaction graph. By sharing only encrypted model gradients and utilizing secure aggregation protocols, the system identifies transnational fraud patterns without exposing sensitive customer PII or proprietary financial ledgers. The contribution is a scalable, privacy-mathematically-guaranteed intelligence network that drastically improves cross-border financial security. |
+| **3. Target Domain** | FinTech, Cybersecurity, Artificial Intelligence |
+| **4. Statement of the Problem (SOP)** | 1. How can Federated Graph Neural Networks (FGNNs) effectively model complex, cross-institutional transaction graphs without exposing sensitive customer PII or proprietary financial data? <br> 2. What secure aggregation protocols and differential privacy techniques prevent model inversion attacks and gradient leakage in highly imbalanced, real-time fraud detection scenarios? <br> 3. How does the latency of federated graph training and inference impact the authorization speed and throughput of high-frequency, cross-border payment gateways? |
+| **5. Technologies** | Python, PyTorch Geometric, PySyft / Flower, Neo4j, FastAPI, Apache Kafka |
+| **6. Research Category** | Artificial Intelligence, FinTech, Cybersecurity |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | FGNN Fraud Model, Federated Training Pipeline, Latency and Privacy Audit Report |
+| **10. Possible Future Extensions** | Integration with central bank digital currencies (CBDCs), dynamic adjustment of transaction friction based on federated risk scores. |
+| **11. References / Inspiration** | Federated Graph Neural Network literature, cross-border payment fraud reports, differential privacy in federated learning. |
+
+## Idea 126
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Intent-Driven Soft Robotic Exosuit for Industrial Lifting Assistance Using sEMG and Pneumatic Artificial Muscles |
+| **2. Description** | Lower back injuries from repetitive lifting are a massive occupational hazard in logistics and manufacturing. Rigid exoskeletons are heavy and restrict natural movement, while passive soft suits lack adaptive assistance. This research develops an active soft robotic exosuit utilizing Pneumatic Artificial Muscles (PAMs) actuated by real-time intent prediction. Surface Electromyography (sEMG) sensors on the lower back and legs detect the onset of muscle activation, allowing a predictive control algorithm to synchronize the inflation of the PAMs with the user's natural biomechanical lifting trajectory. The primary contribution is a lightweight, ergonomic assistive device that significantly reduces metabolic cost and spinal loading without impeding worker mobility. |
+| **3. Target Domain** | Robotics, Biomedical Engineering, Human-Computer Interaction |
+| **4. Statement of the Problem (SOP)** | 1. How can sEMG signals from the lower back and legs be processed in real-time to accurately predict the user's lifting intent and required assistance torque? <br> 2. What control algorithms best synchronize the non-linear inflation and deflation dynamics of pneumatic artificial muscles with the user's natural biomechanical lifting trajectory? <br> 3. How does the active soft exosuit quantitatively impact the user's metabolic cost, lower-back muscle fatigue, and spinal compression during repetitive industrial lifting tasks? |
+| **5. Technologies** | C++, ROS 2, Python, sEMG Sensors, Pneumatic Valves, Microcontrollers (Teensy) |
+| **6. Research Category** | Robotics, Human-Computer Interaction, Embedded Systems |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Soft Exosuit Prototype, Intent Prediction Model, Ergonomic Evaluation Report |
+| **10. Possible Future Extensions** | Integration with computer vision to predict object weight and adjust assistance preemptively, extension to asymmetric lifting and carrying tasks. |
+| **11. References / Inspiration** | Soft robotic exosuit literature, sEMG-based intent recognition, occupational ergonomics and biomechanics. |
+
+## Idea 127
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Deep Reinforcement Learning for Predictive Thermal Management and Cooling Optimization in Liquid-Cooled Data Centers |
+| **2. Description** | High-density AI training clusters generate massive thermal loads, pushing traditional air cooling to its limits. Direct-to-chip liquid cooling is highly efficient but exhibits complex, non-linear thermodynamics and significant thermal inertia. This thesis applies Deep Reinforcement Learning (DRL) to optimize the control of liquid cooling pumps, coolant temperatures, and manifold valves. By training the DRL agent in a high-fidelity digital twin of a liquid-cooled data center, the system learns to proactively adjust cooling parameters based on predictive GPU workload scheduling. The expected contribution is an intelligent thermal management framework that minimizes cooling energy consumption (improving PUE) while strictly preventing localized thermal throttling of AI accelerators. |
+| **3. Target Domain** | Green IT, Artificial Intelligence, Systems Engineering |
+| **4. Statement of the Problem (SOP)** | 1. How can DRL agents learn to optimize the complex, non-linear thermodynamics of direct-to-chip liquid cooling systems under highly dynamic, bursty AI training workloads? <br> 2. What reward functions best balance the strict trade-off between minimizing cooling energy consumption (PUE) and preventing localized thermal throttling of GPUs? <br> 3. How does the DRL controller handle the significant thermal inertia and delayed feedback inherent in liquid cooling loops compared to traditional air cooling PID controllers? |
+| **5. Technologies** | Python, Ray RLlib, PyTorch, Data Center Digital Twin (e.g., NVIDIA Omniverse), Prometheus |
+| **6. Research Category** | Green IT, Artificial Intelligence, Systems Engineering |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | DRL Cooling Controller, Data Center Thermal Simulator, Energy Savings Report |
+| **10. Possible Future Extensions** | Integration with predictive workload schedulers for holistic thermal-energy management, application to two-phase immersion cooling systems. |
+| **11. References / Inspiration** | DRL for data center cooling (e.g., DeepMind research), liquid cooling thermodynamics, Green IT metrics and PUE standards. |
+
+## Idea 128
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Acoustic Gunshot Triangulation and 5G-Enabled Drone Dispatch for Urban Emergency Response Using Edge AI |
+| **2. Description** | Rapid response to urban gun violence is critical, but manual 911 reporting is often delayed and inaccurate. This thesis develops an integrated emergency response system combining a distributed network of edge-AI acoustic sensors with autonomous drone dispatch. The sensors utilize temporal convolutional networks to detect and classify the supersonic shockwaves and muzzle blasts of gunfire, triangulating the 3D origin in highly reverberant urban canyons. Upon confirmation, the system utilizes 5G Ultra-Reliable Low-Latency Communication (URLLC) to instantly dispatch an autonomous drone to the coordinates for real-time video triage. The contribution is a seamless, low-latency cyber-physical system that drastically reduces emergency response times and provides first responders with critical situational awareness before arrival. |
+| **3. Target Domain** | Smart Cities, Internet of Things (IoT), Robotics |
+| **4. Statement of the Problem (SOP)** | 1. How can distributed edge microphones accurately triangulate the 3D origin of supersonic shockwaves and muzzle blasts in highly reverberant, noisy urban canyons? <br> 2. What 5G network slicing and edge-computing architectures minimize the latency between acoustic detection, cloud verification, and autonomous drone dispatch? <br> 3. How does the system reliably differentiate between gunfire and acoustically similar urban impulsive noises (e.g., fireworks, construction, backfiring vehicles)? |
+| **5. Technologies** | C++, Python, ROS 2, 5G APIs, Edge AI (NVIDIA Jetson), Acoustic Sensor Arrays |
+| **6. Research Category** | Internet of Things (IoT), Robotics, Smart Cities |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Acoustic Triangulation Network, Drone Dispatch System, Urban Simulation Testbed |
+| **10. Possible Future Extensions** | Integration with drone-based computer vision for automated suspect tracking and weapon detection, integration with municipal CAD (Computer Aided Dispatch) systems. |
+| **11. References / Inspiration** | Acoustic gunshot detection literature, 5G URLLC for robotics, drone emergency response research. |
+
+## Idea 129
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Continuous Sign Language Recognition Using Multimodal Fusion of Smartwatch IMU and Forearm sEMG Signals |
+| **2. Description** | Camera-based sign language translation struggles with occlusion, lighting, and privacy concerns, while data-glove solutions are cumbersome and socially stigmatizing. This research proposes a discreet, wearable Sign Language Recognition (SLR) system utilizing a standard smartwatch and a forearm sEMG armband. The smartwatch IMU captures gross arm and wrist kinematics, while the sEMG sensors detect the fine motor muscle activations required for finger-spelling and complex handshapes. A sequence-to-sequence Transformer model fuses these asynchronous data streams to translate continuous signing into text. The primary contribution is a highly accurate, socially acceptable, and privacy-preserving translation wearable that operates entirely independent of visual sensors. |
+| **3. Target Domain** | Accessibility, Human-Computer Interaction, Signal Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can the kinematic data from a smartwatch IMU be accurately fused with forearm sEMG to capture both gross arm movements and fine finger-spelling articulations? <br> 2. What sequence-to-sequence models best translate continuous, multimodal sensor streams into grammatically correct text without requiring explicit word-boundary segmentation? <br> 3. How does the system dynamically adapt to user-specific signing styles, muscle fatigue, and variations in watch placement on the wrist? |
+| **5. Technologies** | Python, PyTorch, Apple Watch / WearOS APIs, sEMG Armband (e.g., Myo), Hugging Face Transformers |
+| **6. Research Category** | Human-Computer Interaction, Accessibility, Artificial Intelligence |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Multimodal SLR Model, Mobile Translation App, User Study on Wrist-Worn SLR |
+| **10. Possible Future Extensions** | Bidirectional translation (text-to-haptic feedback), expansion to two-handed signing using dual smartwatches, integration with AR glasses for heads-up display. |
+| **11. References / Inspiration** | Wearable sign language recognition literature, sEMG-IMU sensor fusion, sequence-to-sequence modeling for time-series data. |
+
+## Idea 130
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Detection of Jurisdictional Conflicts and Regulatory Non-Compliance in Multi-National Smart Contracts Using NLP and Legal Knowledge Graphs |
+| **2. Description** | Decentralized applications operate globally, making their underlying smart contracts subject to a complex, overlapping web of international regulations (e.g., GDPR, MiCA, SEC guidelines). Manual legal review of code is unscalable and prone to missing implicit conflicts. This thesis develops an automated compliance auditor that parses Solidity/Vyper source code and natural language specifications using NLP, mapping the extracted conditional logic and data-handling clauses into a comprehensive Legal Knowledge Graph. A graph-reasoning engine then traverses the graph to identify implicit jurisdictional conflicts, such as a data-retention clause in code violating a specific region's privacy right-to-be-forgotten law. The contribution is a rigorous, automated legal-tech tool that ensures Web3 protocols maintain global regulatory compliance prior to mainnet deployment. |
+| **3. Target Domain** | Legal Technology, Blockchain, Natural Language Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can Legal Knowledge Graphs be systematically constructed to map the complex, overlapping regulatory requirements across different global jurisdictions? <br> 2. What NLP and AST parsing techniques accurately extract conditional logic, financial thresholds, and data-handling clauses from smart contract source code? <br> 3. How does the graph-reasoning engine identify implicit jurisdictional conflicts (e.g., code logic violating specific regional privacy or securities laws) that are not explicitly stated in the text? |
+| **5. Technologies** | Python, Neo4j, LangChain, Llama-3 API, Solidity AST Parsers, spaCy |
+| **6. Research Category** | Legal Technology, Natural Language Processing, Blockchain |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Legal Knowledge Graph, Smart Contract Auditor, Compliance Dashboard |
+| **10. Possible Future Extensions** | Automated generation of jurisdiction-specific smart contract wrappers, integration with decentralized identity (DID) for regional access control and KYC enforcement. |
+| **11. References / Inspiration** | Legal knowledge graph construction literature, smart contract formal verification, cross-border regulatory technology (RegTech). |
+
+# Curated Undergraduate Computer Science Thesis Ideas (Batch 14 of 20)
+
+## Idea 131
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Privacy-Preserving Crowdsourced Road Surface Quality Mapping Using Smartphone Inertial Sensors and Differential Privacy GPS Fuzzing |
+| **2. Description** | Municipalities struggle to maintain road infrastructure due to the high cost of manual inspection and specialized survey vehicles. Crowdsourcing road quality data via smartphone accelerometers and gyroscopes is a scalable alternative, but continuous GPS tracking raises severe privacy concerns regarding user movement patterns. This thesis develops a mobile edge-computing application that detects road anomalies (potholes, cracks, roughness) using a lightweight temporal convolutional network on inertial sensor data. To protect privacy, the system implements a differential privacy GPS fuzzing algorithm that adds calibrated noise to the location data before transmission, ensuring k-anonymity while preserving the spatial utility required for municipal mapping. The primary contribution is a privacy-mathematically-guaranteed, scalable infrastructure monitoring framework that empowers cities to optimize repair schedules without compromising citizen privacy. |
+| **3. Target Domain** | Smart Cities, IoT, Cybersecurity |
+| **4. Statement of the Problem (SOP)** | 1. How can temporal convolutional networks accurately classify road surface anomalies from noisy, variable-orientation smartphone inertial sensors? <br> 2. What differential privacy and GPS fuzzing mechanisms best balance the trade-off between user location privacy and the spatial resolution required for municipal road mapping? <br> 3. How does the system handle the heterogeneity of smartphone hardware and varying vehicle suspension systems to normalize road roughness metrics? |
+| **5. Technologies** | Android/iOS, Python, TensorFlow Lite, Differential Privacy Libraries, GIS (PostGIS) |
+| **6. Research Category** | Internet of Things (IoT), Smart Cities, Cybersecurity |
+| **7. Novelty Level** | Medium |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Mobile App, Edge AI Model, Privacy-Preserving GIS Dashboard |
+| **10. Possible Future Extensions** | Integration with municipal work-order systems, expansion to detect speed bump and drainage issues. |
+| **11. References / Inspiration** | Crowdsourced road monitoring literature, differential privacy for location data, smartphone sensor calibration. |
+
+## Idea 132
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Predicting Protein-Ligand Binding Kinetics (Residence Time) Using Equivariant Graph Neural Networks and Molecular Dynamics Surrogate Models |
+| **2. Description** | In drug discovery, the binding affinity (thermodynamics) of a drug to its target is often less predictive of in vivo efficacy than the binding kinetics (residence time or kon/koff rates). Calculating these kinetic rates traditionally requires computationally prohibitive Molecular Dynamics (MD) simulations. This research proposes a deep learning surrogate model that utilizes 3D Equivariant Graph Neural Networks (EGNNs) to predict protein-ligand residence times directly from the 3D bound-state structure. By training on a dataset of known kinetic rates and incorporating dynamic flexibility features extracted from short, coarse-grained MD trajectories, the model rapidly estimates the unbinding energy barriers. The primary contribution is an ultra-fast, AI-driven kinetic profiling tool that enables pharmaceutical researchers to prioritize drug candidates with optimal residence times early in the discovery pipeline. |
+| **3. Target Domain** | Bioinformatics, Artificial Intelligence, Pharmacology |
+| **4. Statement of the Problem (SOP)** | 1. How can 3D Equivariant Graph Neural Networks capture the dynamic flexibility and unbinding pathways required to predict protein-ligand residence times from static bound-state structures? <br> 2. What surrogate modeling techniques best approximate the energy barriers calculated by long-timescale Molecular Dynamics simulations using only short, coarse-grained trajectories? <br> 3. How does the predictive accuracy of the EGNN kinetic model compare to traditional empirical scoring functions across diverse protein families and ligand scaffolds? |
+| **5. Technologies** | Python, PyTorch Geometric, GROMACS / OpenMM, PDBbind / Kinase Datasets |
+| **6. Research Category** | Artificial Intelligence, Bioinformatics, Computational Chemistry |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Kinetic Prediction Model, MD Surrogate Pipeline, Drug Screening Benchmark |
+| **10. Possible Future Extensions** | Integration with generative AI for kinetic-optimized drug design, application to protein-protein interaction inhibitors. |
+| **11. References / Inspiration** | Protein-ligand binding kinetics literature, EGNN architectures, molecular dynamics surrogate modeling. |
+
+## Idea 133
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Firmware Vulnerability Patching for Legacy IoT Devices Using LLM-Guided Binary Rewriting and Control Flow Integrity |
+| **2. Description** | Millions of deployed IoT devices run outdated, unpatched firmware with known vulnerabilities, but manufacturers rarely release updates, and source code is unavailable. This thesis develops an automated binary patching framework that utilizes Large Language Models (LLMs) to understand decompiled vulnerable functions and generate secure assembly-level patches. A binary rewriting engine then injects these patches and enforces Control Flow Integrity (CFI) to prevent memory corruption exploits (e.g., ROP chains) directly on the compiled firmware image. The primary contribution is a scalable, source-independent security remediation tool that extends the operational lifespan and security posture of legacy IoT ecosystems without requiring hardware replacement. |
+| **3. Target Domain** | Cybersecurity, Internet of Things (IoT), Software Engineering |
+| **4. Statement of the Problem (SOP)** | 1. How can LLMs accurately generate secure, architecture-specific assembly patches from decompiled, stripped IoT binary code without introducing functional regressions? <br> 2. What binary rewriting techniques efficiently inject patches and enforce Control Flow Integrity (CFI) on resource-constrained IoT microcontrollers without exceeding memory limits? <br> 3. How does the automated patching framework handle the diverse instruction set architectures (ARM, MIPS, RISC-V) and custom RTOS environments typical of IoT firmware? |
+| **5. Technologies** | Python, C, Ghidra / Radare2, Llama-3 API, QEMU, Binary Analysis |
+| **6. Research Category** | Cybersecurity, Embedded Systems, Artificial Intelligence |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Binary Patching Engine, LLM Assembly Generator, Security Evaluation Report |
+| **10. Possible Future Extensions** | Automated generation of hardware-enforced memory protection rules, integration with OTA (Over-The-Air) update servers for mass deployment. |
+| **11. References / Inspiration** | Binary rewriting literature, LLMs for reverse engineering, IoT firmware security. |
+
+## Idea 134
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | High-Speed Augmentative and Alternative Communication (AAC) Keyboard Using Webcam-Based Eye-Tracking and Predictive Dwell-Time Modeling |
+| **2. Description** | Individuals with severe motor impairments (e.g., ALS, locked-in syndrome) rely on eye-tracking AAC devices to communicate, but commercial hardware is prohibitively expensive, and standard dwell-time typing is slow and causes the "Midas touch" problem (accidental selections). This research develops a high-speed, low-cost AAC system using standard consumer webcams. A deep learning model estimates gaze coordinates, while a predictive dwell-time algorithm dynamically adjusts the selection threshold based on the user's typing intent, language model predictions, and historical error rates. The primary contribution is an accessible, software-only eye-typing interface that significantly increases words-per-minute (WPM) and reduces visual fatigue for users relying on gaze-based communication. |
+| **3. Target Domain** | Accessibility, Human-Computer Interaction, Computer Vision |
+| **4. Statement of the Problem (SOP)** | 1. How can deep learning gaze estimation models be optimized to run in real-time on consumer webcams while maintaining the sub-degree accuracy required for dense AAC keyboards? <br> 2. What predictive algorithms best dynamically adjust dwell-time thresholds to mitigate the "Midas touch" problem and accommodate user fatigue? <br> 3. How does the integration of language model predictions (e.g., next-word/character probability) impact the typing speed (WPM) and error rate compared to static dwell-time interfaces? |
+| **5. Technologies** | Python, PyTorch, MediaPipe / OpenCV, WebGazer.js, React, NLP Language Models |
+| **6. Research Category** | Human-Computer Interaction, Accessibility, Computer Vision |
+| **7. Novelty Level** | Medium |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Eye-Tracking AAC Web App, Dynamic Dwell-Time Algorithm, User Study |
+| **10. Possible Future Extensions** | Integration with smart home IoT controls, expansion to continuous text dictation via subvocalization. |
+| **11. References / Inspiration** | Eye-tracking HCI literature, AAC typing optimization, webcam gaze estimation research. |
+
+## Idea 135
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Real-Time Detection of Cross-Chain Bridge Exploits and Liquidity Drain Attacks Using Mempool Monitoring and Temporal Graph Neural Networks |
+| **2. Description** | Cross-chain bridges hold billions in locked value but are the most frequently hacked infrastructure in Web3, often falling victim to smart contract logic flaws, signature replay, or liquidity drain attacks. Traditional post-mortem analysis is useless once funds are drained. This thesis develops a real-time monitoring and intervention system that analyzes pending transactions in the mempools of multiple blockchains. By representing cross-chain message passing and liquidity pool states as a temporal graph, a Graph Neural Network (GNN) identifies anomalous transaction sequences indicative of an active exploit. The system can then trigger automated circuit breakers or front-run the attacker via flashbots to pause the bridge. The contribution is a proactive, mempool-level security shield for decentralized interoperability protocols. |
+| **3. Target Domain** | FinTech, Blockchain, Cybersecurity |
+| **4. Statement of the Problem (SOP)** | 1. How can pending transactions across heterogeneous blockchain mempools be synchronized and modeled as a unified temporal graph to track cross-chain state transitions? <br> 2. What Temporal Graph Neural Network architectures best detect the complex, multi-step signatures of bridge exploits (e.g., signature replay, fake message injection) before they are finalized in a block? <br> 3. How can the system reliably trigger automated circuit breakers or front-run malicious transactions without introducing unacceptable latency or false-positive bridge halts? |
+| **5. Technologies** | Rust, Go, Ethers.js / Web3.py, PyTorch Geometric, Flashbots API, Blockchain Nodes |
+| **6. Research Category** | Distributed Systems, Cybersecurity, FinTech |
+| **7. Novelty Level** | Cutting-edge |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Mempool GNN Monitor, Bridge Circuit Breaker Smart Contracts, Exploit Dataset |
+| **10. Possible Future Extensions** | Expansion to monitor decentralized exchange (DEX) oracle manipulation, integration with decentralized insurance protocols for automated claim payouts. |
+| **11. References / Inspiration** | Cross-chain bridge hack post-mortems, mempool monitoring research, temporal graph neural networks. |
+
+## Idea 136
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Early Detection of Plant Viral Infections Using Smartphone-Based Multispectral Imaging and Edge-AI Hyperspectral Unmixing |
+| **2. Description** | Plant viral diseases cause devastating crop losses and are often asymptomatic in early stages, making visual detection by farmers too late for effective containment. While laboratory hyperspectral imaging can detect viral stress, it is expensive and non-portable. This research proposes a low-cost, smartphone-attachable multispectral camera filter combined with an edge-AI processing app. The system captures specific narrow-band reflectance signatures and utilizes a hyperspectral unmixing neural network to isolate the spectral fingerprints of viral-induced chlorophyll degradation and cellular stress. The primary contribution is an accessible, field-deployable diagnostic tool that enables smallholder farmers to identify and quarantine viral infections days before visible symptoms appear. |
+| **3. Target Domain** | Agriculture, Computer Vision, Mobile Computing |
+| **4. Statement of the Problem (SOP)** | 1. What specific multispectral band ratios are most sensitive to the early-stage physiological changes induced by common plant viral infections? <br> 2. How can hyperspectral unmixing algorithms be optimized to run on mobile edge devices to isolate viral stress signatures from background canopy noise and varying solar illumination? <br> 3. How does the diagnostic accuracy of the smartphone-based multispectral system compare to traditional visual scouting and laboratory ELISA/PCR testing across different crop varieties? |
+| **5. Technologies** | Python, TensorFlow Lite, Android/iOS, Custom Optical Filters, OpenCV, Scikit-Image |
+| **6. Research Category** | Computer Vision, Mobile Computing, Precision Agriculture |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | Smartphone Multispectral App, Edge AI Unmixing Model, Field Validation Report |
+| **10. Possible Future Extensions** | Integration with automated drone spraying for targeted pesticide application, expansion to detect bacterial and fungal pathogens. |
+| **11. References / Inspiration** | Multispectral plant pathology literature, hyperspectral unmixing algorithms, smartphone agricultural imaging. |
+
+## Idea 137
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Automated Generation of High-Coverage Unit Tests for Legacy C/C++ Codebases Using LLMs and Symbolic Execution |
+| **2. Description** | Legacy C/C++ systems (e.g., in aerospace, automotive, and finance) often lack comprehensive unit test suites, making refactoring and modernization highly risky. Pure LLM-generated tests frequently suffer from low branch coverage, compilation errors, and hallucinated APIs. This thesis proposes a neuro-symbolic test generation framework that combines Large Language Models with symbolic execution engines (e.g., KLEE). The LLM generates initial test scaffolds and mock objects, while the symbolic execution engine systematically explores the execution paths, identifying edge cases and generating concrete inputs to maximize branch and mutation coverage. The primary contribution is an automated testing pipeline that produces highly robust, compilable, and semantically meaningful test suites for complex, pointer-heavy legacy code. |
+| **3. Target Domain** | Software Engineering, Artificial Intelligence, Cybersecurity |
+| **4. Statement of the Problem (SOP)** | 1. How can symbolic execution engines be integrated with LLMs to automatically resolve complex pointer aliasing and external dependency mocking in legacy C/C++ code? <br> 2. What feedback-loop architectures enable the LLM to iteratively refine generated test code based on the compilation and coverage errors reported by the symbolic execution engine? <br> 3. How does the neuro-symbolic framework compare to purely LLM-based or purely search-based test generation tools in terms of branch coverage, mutation score, and false-positive rates? |
+| **5. Technologies** | Python, C/C++, KLEE / Angr, Llama-3 API, LLVM, GTest / Catch2 |
+| **6. Research Category** | Software Engineering, Artificial Intelligence, Formal Methods |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | Test Generation Pipeline, LLM-Symbolic Integration Engine, Coverage Benchmark Report |
+| **10. Possible Future Extensions** | Automated generation of fuzzing harnesses for security testing, integration with CI/CD for continuous legacy code auditing. |
+| **11. References / Inspiration** | KLEE symbolic execution documentation, LLMs for software testing, neuro-symbolic AI. |
+
+## Idea 138
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Real-Time Microplastic Concentration Monitoring in Wastewater Treatment Plants Using Inline Digital Holographic Microscopy and Edge AI |
+| **2. Description** | Wastewater treatment plants (WWTPs) are a primary vector for microplastics entering aquatic ecosystems, but monitoring effluent quality relies on slow, manual laboratory filtration and spectroscopy. This research develops an inline, continuous monitoring sensor utilizing Digital Holographic Microscopy (DHM) and Edge AI. As water flows through a microfluidic cell, a laser records holographic interference patterns, which are numerically reconstructed into 3D volumetric images on an edge GPU. A 3D Convolutional Neural Network then detects, counts, and classifies microplastic particles in real-time. The primary contribution is a high-throughput, automated environmental sensor that provides WWTP operators with continuous data on filtration efficiency and microplastic discharge rates. |
+| **3. Target Domain** | Environmental Science, Internet of Things (IoT), Computer Vision |
+| **4. Statement of the Problem (SOP)** | 1. How can digital holographic reconstruction algorithms be optimized to run in real-time on edge GPUs to generate high-fidelity 3D volumetric images of flowing water samples? <br> 2. What 3D CNN architectures best differentiate microplastic particles from organic detritus, air bubbles, and biological matter in complex wastewater effluent? <br> 3. How does the inline DHM sensor's counting accuracy and size-resolution limit compare to standard laboratory FTIR (Fourier Transform Infrared) spectroscopy methods? |
+| **5. Technologies** | Python, C++, PyTorch, CUDA, OpenCV, Holographic Reconstruction Algorithms, NVIDIA Jetson |
+| **6. Research Category** | Computer Vision, Environmental Informatics, Embedded Systems |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | DHM Sensor Prototype, Edge AI 3D Classifier, WWTP Monitoring Dashboard |
+| **10. Possible Future Extensions** | Integration with automated WWTP filtration control systems, expansion to detect specific microplastic polymer types using multi-wavelength holography. |
+| **11. References / Inspiration** | Digital holographic microscopy literature, microplastic wastewater monitoring, edge AI for 3D vision. |
+
+## Idea 139
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Cuffless, Continuous Blood Pressure Estimation Using Multimodal Fusion of PPG and ECG Signals via Physics-Informed Neural Networks |
+| **2. Description** | Hypertension is a leading risk factor for cardiovascular disease, but continuous monitoring typically requires cumbersome, uncomfortable inflatable cuffs. This thesis proposes a cuffless blood pressure (BP) estimation system using standard smartwatch sensors. By fusing Photoplethysmography (PPG) and Electrocardiogram (ECG) signals, the system calculates Pulse Transit Time (PTT) and extracts morphological features of the arterial pulse wave. A Physics-Informed Neural Network (PINN) integrates these data-driven features with the hemodynamic principles of arterial compliance and fluid dynamics to estimate systolic and diastolic BP. The primary contribution is a highly accurate, physiologically grounded continuous BP monitor that reduces the need for frequent calibration and improves long-term cardiovascular risk management. |
+| **3. Target Domain** | Healthcare, Wearable Technology, Signal Processing |
+| **4. Statement of the Problem (SOP)** | 1. How can the hemodynamic equations of arterial compliance and fluid dynamics be mathematically embedded into the loss function of a Physics-Informed Neural Network for BP estimation? <br> 2. What signal processing techniques best extract robust PPG morphological features and PTT from noisy, motion-corrupted smartwatch sensors during daily activities? <br> 3. How does the PINN-based cuffless BP monitor compare to pure data-driven deep learning models and standard PTT regression models in terms of accuracy, calibration frequency, and generalization across diverse demographics? |
+| **5. Technologies** | Python, PyTorch, Scipy, Apple HealthKit / WearOS APIs, MIMIC-III / BIDMC Datasets |
+| **6. Research Category** | Biomedical Engineering, Artificial Intelligence, Signal Processing |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Advanced |
+| **9. Expected Deliverables** | PINN BP Estimation Model, Mobile Health App, Clinical Validation Report |
+| **10. Possible Future Extensions** | Integration with continuous vascular aging tracking, predictive alerting for hypertensive crises based on longitudinal trends. |
+| **11. References / Inspiration** | Physics-Informed Neural Networks (PINNs), cuffless blood pressure monitoring literature, PPG hemodynamics. |
+
+## Idea 140
+| Feature | Details |
+| :--- | :--- |
+| **1. Thesis Title** | Sim-to-Real Transfer for Quadruped Robot Locomotion on Deformable Terrain Using Domain Randomization and Proprioceptive Reinforcement Learning |
+| **2. Description** | Legged robots excel in structured environments but struggle on deformable terrains like sand, mud, or snow, where foot slippage and sinkage severely disrupt traditional model-based controllers. This research develops a robust locomotion policy using Deep Reinforcement Learning (DRL) trained entirely in a physics simulator (e.g., Isaac Gym). By employing aggressive domain randomization of terrain friction, stiffness, and robot dynamics, the policy learns to rely solely on onboard proprioceptive sensors (IMU, joint encoders) to adapt its gait in real-time. The primary contribution is a zero-shot sim-to-real transfer framework that enables quadruped robots to autonomously navigate and recover from failures on complex, unstructured outdoor terrains without requiring expensive exteroceptive sensors like LiDAR or depth cameras. |
+| **3. Target Domain** | Robotics, Artificial Intelligence, Embedded Systems |
+| **4. Statement of the Problem (SOP)** | 1. What domain randomization parameters and distributions are most critical for training a robust locomotion policy that generalizes to highly deformable terrains like sand and mud? <br> 2. How can proprioceptive sensor data (IMU, joint torque/velocity) be processed by neural networks to implicitly estimate terrain deformability and foot slippage without exteroceptive vision? <br> 3. How does the zero-shot sim-to-real transferred policy compare to traditional model-predictive control (MPC) in terms of energy efficiency, forward velocity, and failure recovery on physical outdoor terrains? |
+| **5. Technologies** | Python, PyTorch, Isaac Gym / MuJoCo, ROS 2, Unitree / Custom Quadruped Hardware |
+| **6. Research Category** | Robotics, Artificial Intelligence, Control Systems |
+| **7. Novelty Level** | High |
+| **8. Difficulty Level** | Expert |
+| **9. Expected Deliverables** | DRL Locomotion Policy, Sim-to-Real Transfer Pipeline, Outdoor Terrain Benchmark |
+| **10. Possible Future Extensions** | Integration with sparse visual cues for terrain pre-mapping, multi-agent coordination for collaborative payload transport on rough terrain. |
+| **11. References / Inspiration** | Legged robotics literature, sim-to-real domain randomization, Isaac Gym reinforcement learning. |
